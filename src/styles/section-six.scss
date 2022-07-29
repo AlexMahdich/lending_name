@@ -10,16 +10,41 @@
     height: 740px;
     margin: auto;
     display: flex;
+    color: #f0f0f0;
 }
 .show-room__title {
     border: 1px solid green;
     width: 349px;
     height: 40px;
+    P {
+        font-family: 'e-Ukraine Head';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 125%;
+        text-transform: uppercase;
+    }
 }
 .show-room__adress {
     border: 1px solid green;
     width: 477px;
-    height: 160px;
+    height: auto;
+    p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 150%;
+        font-family: 'e-Ukraine';
+        margin: 40px 0 30px 0;
+    }
+    li {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 150%;
+        font-family: 'e-Ukraine';
+        margin: 5px 0 0 0;
+    }
 }
 .show-room__img {
     border: 1px solid green;
@@ -27,26 +52,42 @@
     width: 800px;
 }
 .show-room__img {
-    display: flex;
+    display: grid;
 }
 .show-room-grey-border {
+    grid-row: 2;
     width: 360px;
     height: 360px;
     border: 30px solid rgba(173, 172, 172, 0.2);
-    backdrop-filter: blur(10px);
+    // backdrop-filter: blur(3px);
+    position: relative;
+    right: 200px;
+    bottom: 130px;
+    z-index: 1;
 }
 .show-room-aqua-border {
+    position: relative;
+    right: 32px;
+    top: 60px;
     width: 360px;
     height: 360px;
     border: 30px solid #B2DFDB;
 }
 .show-room__square-img {
     background-image: url(/classwork/lending_name/dist/images/squad-flower.png);
+    grid-column: 2;
     width: 360px;
     height: 360px;
+    position: relative;
+    right: 540px;
+    top: 380px;
 }
 .show-room__big-img {
     background-image: url(/classwork/lending_name/dist/images/vertical-chair.png);
     width: 360px;
     height: 740px;
+    grid-row: 2;
+    position: relative;
+    bottom: 420px;
+    right: 150px;
 }
