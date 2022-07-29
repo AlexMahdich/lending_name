@@ -1,0 +1,56 @@
+.section-header {
+    position: fixed;
+    margin: auto;
+    top: 0px;
+    z-index: 1;
+    display: flex;
+    width: 1280px;
+    height: 50px;
+    //background-color: grey;
+    background: rgba(0, 0, 0, 0.3);
+    border: 0.1px solid #FFFFFF;
+    justify-content: space-between;
+    -webkit-backdrop-filter: blur(3px);
+    backdrop-filter: blur(3px); // for brows mozilla not work, 
+    //From version 70: this feature is behind thelayout.css.backdrop-filter.enabled 
+    //preferences (needs to be set to true) and the gfx.webrender.
+    //all preferences (needs to be set to true). To change preferences in Firefox, visit about:config.
+    //margin: 0 0px 0 -15px;
+}
+.header-logo {
+    margin: 12px 0 0 93px;
+}
+
+.header-link {
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+        ul {
+            display: flex;
+            justify-content: space-between;
+            width: 560px;
+            text-decoration: none;
+                a {
+                    text-decoration: none;
+                    display: flex;
+                    }
+            }
+            li {
+                font-family: 'e-Ukraine';
+                font-style: normal;
+                font-weight: 200;
+                font-size: 14px;
+                line-height: 130%;
+                text-transform: uppercase;
+                color: #FFFFFF;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+}
+.header-basket-search {
+    img {
+        margin: 0 0 0 20px;
+    }
+    margin: 12px 80px 0 0px;
+}

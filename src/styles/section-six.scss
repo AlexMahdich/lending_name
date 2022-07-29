@@ -1,0 +1,52 @@
+.section-six {
+    background-color: #212121;
+    height: 840px;
+    margin: auto;
+    width: 1280px;
+}
+.show-room {
+    border: 1px solid green;
+    width: 1120px;
+    height: 740px;
+    margin: auto;
+    display: flex;
+}
+.show-room__title {
+    border: 1px solid green;
+    width: 349px;
+    height: 40px;
+}
+.show-room__adress {
+    border: 1px solid green;
+    width: 477px;
+    height: 160px;
+}
+.show-room__img {
+    border: 1px solid green;
+    height: 740px;
+    width: 800px;
+}
+.show-room__img {
+    display: flex;
+}
+.show-room-grey-border {
+    width: 360px;
+    height: 360px;
+    border: 30px solid rgba(173, 172, 172, 0.2);
+    backdrop-filter: blur(10px);
+}
+.show-room-aqua-border {
+    width: 360px;
+    height: 360px;
+    border: 30px solid #B2DFDB;
+}
+.show-room__square-img {
+    background-image: url(/classwork/lending_name/dist/images/squad-flower.png);
+    width: 360px;
+    height: 360px;
+}
+.show-room__big-img {
+    background-image: url(/classwork/lending_name/dist/images/vertical-chair.png);
+    width: 360px;
+    height: 740px;
+}

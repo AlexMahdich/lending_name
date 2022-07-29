@@ -1,0 +1,352 @@
+.section-zero {
+    p {
+        position: absolute;
+        font-family: 'e-Ukraine';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 34px;
+        line-height: 150%;
+        text-transform: capitalize;
+        color: #FFFFFF;
+        }
+        display: none;
+    width: 1280px;
+    height: 2070px;
+    background: rgba(33, 33, 33, 0.8);
+}
+.button-big {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    padding: 10px;
+    width: 360px;
+    height: 54px;
+    background: #009688;
+    font-family: 'e-Ukraine';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+.button-mid {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 265px;
+    font-family: 'e-Ukraine';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+}
+.button-small {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    position: absolute;
+    width: 170px;
+    height: 40px;
+    font-style: normal;
+    font-family: 'e-Ukraine';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+}
+
+.default-button {
+    p {
+        top: 38px;
+        left: 252px;
+    }
+    width: 360px;
+    height: 433px;
+    margin: 0px 0 0 140px;
+    padding: 40px 0 0 0;
+}
+// .go-to-catalog-button {
+//      gap: 10px;
+//      left: 140px;
+//      top: 119px;
+// }
+.download-more-button {
+    // left: 140px;
+    // top: 198px;
+    background-color: transparent;
+}
+.order-the-measurer-button {
+    // left: 140px;
+    // top: 277px;
+    background-color: transparent;
+}
+.request-a-call-button {
+    left: 188px;
+    top: 356px;
+    background: #009688;
+    color: #FFFFFF;
+    border: 1px solid #009688;
+}
+.more-button {
+    // left: 235px;
+    // top: 431px;
+    background: #009688;
+    color: #FFFFFF;
+    border: 1px solid #009688;
+}
+
+.error-button {
+    p {
+        left: 892px;
+        top: 38px;
+    }
+    width: 360px;
+    height: 433px;
+    margin: 0px 0 0 780px;
+    padding: 40px 0 0 0;
+}
+
+.go-to-catalog-error-button {
+    left: 780px;
+    top: 119px;
+    background: #BDBDBD;
+    color: #FF5252;
+    border: 1px solid #BDBDBD;
+}
+.download-more-error-button {
+    left: 780px;
+    top: 198px;
+    border: 1px solid #BDBDBD;
+    color: #FF5252;
+    background-color: transparent;
+}
+.order-the-measurer-error-button {
+    top: 277px;
+    border: 1px solid #BDBDBD;
+    left: 780px;
+    background-color: transparent;
+    border: 1px solid #BDBDBD;
+    color: #FF5252;
+}
+.request-a-call-error-button {
+    left: 828px;
+    top: 356px;
+    background: #BDBDBD;
+    border: 1px solid #BDBDBD;
+    color: #FF5252;
+}
+.more-error-button {
+    left: 875px;
+    top: 431px;
+    background: #BDBDBD;
+    border: 1px solid #BDBDBD;
+    color: #FF5252;
+}
+
+.hover-button {
+    p {
+        left: 252px;
+        top: 573px;
+        }
+    width: 360px;
+    height: 433px;
+    left: 140px;
+    top: 573px;
+}
+
+.go-to-catalog-hover-button {
+    left: 140px;
+    top: 654px;
+    background: #00796B;
+    border: 1px solid #00796B;
+}
+.download-more-hover-button {
+    left: 140px;
+    top: 733px;
+    border: 1px solid #00796B;
+    background-color: transparent;
+}
+.order-the-measurer-hover-button{
+    left: 140px;
+    top: 812px;
+    border: 1px solid #00796B;
+    background-color: transparent;
+}
+.request-a-call-hover-button {
+    left: 188px;
+    top: 891px;
+    background: #00796B;
+    border: 1px solid #00796B;
+    color: #FFFFFF;
+}
+.more-hover-button {
+    left: 235px;
+    top: 966px;
+    background: #00796B;
+    border: 1px solid #00796B;
+    color: #FFFFFF;
+}
+.active-button {
+    p {
+        left: 892px;
+        top: 574px;
+    }
+    position: absolute;
+    width: 360px;
+    height: 433px;
+    left: 2px;
+    top: 2px;
+}
+.go-to-catalog-active-button {
+    left: 780px;
+    top: 655px;
+    background: #00796B;
+    box-shadow: inset 0px 7px 10px rgba(33, 33, 33, 0.54);
+    border: 1px solid #00796B;
+}
+.download-more-active-button {
+    left: 780px;
+    top: 734px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid #00796B;
+    box-shadow: inset 0px 7px 10px rgba(33, 33, 33, 0.54);
+}
+.order-the-measurer-active-button {
+    left: 780px;
+    top: 813px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid #00796B;
+    box-shadow: inset 0px 7px 10px rgba(33, 33, 33, 0.54);
+}
+.request-a-call-active-button {
+    left: 828px;
+    top: 892px;
+    background: #00796B;
+    box-shadow: inset 0px 7px 10px rgba(33, 33, 33, 0.54);
+    border: 1px solid #00796B;
+    color: #FFFFFF;
+}
+.more-active-button {
+    left: 875px;
+    top: 967px;
+    background: #00796B;
+    box-shadow: inset 0px 7px 10px rgba(33, 33, 33, 0.54);
+    border: 1px solid #00796B;
+    color: #FFFFFF;
+}
+.default-input {
+    position: absolute;
+    width: 360px;
+    height: 203px;
+    left: 128px;
+    top: 1106px;
+}
+.input-name {
+    p {
+        position: absolute;
+        left: 229px;
+        top: 1106px;
+        font-family: 'e-Ukraine';
+        font-weight: 400;
+        font-size: 34px;
+        text-transform: capitalize;
+        color: #FFFFFF;
+    }
+}
+.input-field {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 10px 10px 20px;
+    gap: 10px;
+    position: absolute;
+    width: 360px;
+    height: 40px;
+    border: 1px solid #FFFFFF;
+    background-color: transparent;
+    font-family: 'e-Ukraine';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 150%;
+    color: rgba(255, 255, 255, 0.6);
+}
+.input-name {
+    left: 1px;
+    top: 50px;
+}
+.input-number {
+    left: 1px;
+    top: 140px;
+}
+.error-input {
+    position: absolute;
+    width: 403px;
+    height: 267px;
+    left: 772px;
+    top: 1106px;
+}
+.input-name-error {
+    top: 50px;
+    border: 1px solid #FF5252;
+}
+.input-number-error {
+    top: 140px;
+    border: 1px solid #FF5252;
+}
+.hover-input {
+    position: absolute;
+    width: 360px;
+    height: 203px;
+    left: 128px;
+    top: 1473px;
+}
+.input-name-hover {
+    top: 50px;
+    color: #FFFFFF;
+}
+.input-number-hover {
+    top: 140px;
+    color: #FFFFFF;
+}
+.active-input {
+    position: absolute;
+    width: 360px;
+    height: 203px;
+    left: 772px;
+    top: 1473px;
+}
+.input-name-active {
+    top: 50px;
+    border: 1px solid #009688;
+}
+.input-number-active {
+    top: 140px;
+    border: 1px solid #009688;
+}
+.text-icons {
+    position: absolute;
+    left: 584px;
+    top: 1781px;
+    font-family: 'e-Ukraine';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 150%;
+    text-transform: capitalize;
+}
+.icons {
+    img {
+       margin: 0 20px 0 0; 
+    }
+    position: absolute;
+    left: 50px;
+    top: 1850px;
+}

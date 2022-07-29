@@ -1,0 +1,96 @@
+.section-five {
+    background-color: #212121;
+    height: 840px;
+    margin: auto;
+    width: 1280px;
+}
+.content-catalog {
+    width: 1145px;
+    height: 831px;
+    margin: auto; 
+    p {
+        color: #f0f0f0;
+        font-family: 'e-Ukraine';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 125%;
+        display: flex;
+        align-items: flex-end;
+        margin: 0 0px 20px 20px;
+    }
+}
+.catalog-title__line {
+    width: 835px;
+    height: 1px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+    position: relative;
+    right: 100px;
+    left: 280px;
+    bottom: 40px;
+}
+.catalog-title {
+    p {
+    font-family: 'e-Ukraine Head';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 125%;
+    text-transform: uppercase;
+    }
+}
+.content-catalog-title {
+    width: 1120px;
+    height: 40px;
+    margin: auto;
+}
+.content-catalog-table {
+    display: flex;
+}
+.content-catalog-table-row-bottom {
+    display: flex;
+}
+.catalog-table__first {
+    width: 740px;
+    height: 360px;
+    background-image: url(/classwork/lending_name/dist/images/catalog-corpus-mebel.png);
+    p {
+        align-items: center;
+        font-family: 'e-Ukraine';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 40px;
+        line-height: 125%;
+        text-decoration-line: underline;
+        margin: 0 0px 20px 200px;
+    }
+}
+.catalog-table__second {
+    width: 360px;
+    height: 360px;
+    background-image: url(/classwork/lending_name/dist/images/catalog-stol.png);
+}
+.catalog-table__third {
+    width: 360px;
+    height: 360px;
+    background-image: url(/classwork/lending_name/dist/images/catalog-predmet-interyera.png);
+}
+.catalog-table__fourth {
+    width: 740px;
+    height: 360px;
+    background-image: url(/classwork/lending_name/dist/images/catalog-stellazh.png);
+}
+.catalog__item {
+    margin: 10px;
+    display: flex;
+}
+.div-dark {
+    display: inherit;
+    width: inherit;
+    background: linear-gradient(0deg, rgba(33, 33, 33, 0.4), rgba(33, 33, 33, 0.4)), linear-gradient(0.3deg, rgba(33, 33, 33, 0.5) 0.26%, rgba(33, 33, 33, 0.42) 29.15%, rgba(255, 255, 255, 0) 107.61%, rgba(255, 255, 255, 0) 107.61%);
+    }
+.catalog-table__first__div {
+    display: inherit;
+    width: inherit;
+    background: linear-gradient(0deg, rgba(33, 33, 33, 0.7), rgba(33, 33, 33, 0.4)), linear-gradient(0.3deg, rgba(33, 33, 33, 0.5) 0.26%, rgba(33, 33, 33, 0.42) 29.15%, rgba(255, 255, 255, 0) 107.61%, rgba(255, 255, 255, 0) 107.61%);
+}
