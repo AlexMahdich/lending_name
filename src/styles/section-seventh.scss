@@ -1,0 +1,61 @@
+.section-seventh {
+    background-color: #212121;
+    height: 1340px;
+    margin: auto;
+    width: 1280px;
+}
+.content-blog {
+    border: 1px solid green;
+    margin: auto;
+    width: 1122px;
+    height: 1223px;
+    color: #FFFFFF;
+}
+.content-blog-title {
+    border: 1px solid green;
+    width: 1122px;
+    height: 84px;
+    >p {
+        font-family: 'e-Ukraine Head';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 125%;
+        text-transform: uppercase;
+    }
+}
+.content-blog__description {
+    display: flex;
+    justify-content: space-between;
+    p {
+        font-family: 'e-Ukraine';
+        font-style: normal;
+        font-weight: 200;
+        font-size: 16px;
+        line-height: 150%;
+    }
+}
+.content-blog__go-to-blog {
+}
+.content-blog-card {
+    border: 1px solid green;
+    width: 1120px;
+    height: 295px;
+    display: flex;
+    justify-content: space-between;
+}
+.content-card__title {
+    border: 1px solid green;
+    width: 360px;
+    height: 265px;
+}
+.content-card__img {
+    border: 1px solid green;
+    width: 360px;
+    height: 265px;
+}
+.content-card__discription {
+    border: 1px solid green;
+    width: 353px;
+    height: 248px;
+}
