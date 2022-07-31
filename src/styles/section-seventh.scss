@@ -5,16 +5,14 @@
     width: 1280px;
 }
 .content-blog {
-    border: 1px solid green;
     margin: auto;
     width: 1122px;
     height: 1223px;
     color: #FFFFFF;
 }
 .content-blog-title {
-    border: 1px solid green;
     width: 1122px;
-    height: 84px;
+    height: 90px;
     >p {
         font-family: 'e-Ukraine Head';
         font-style: normal;
@@ -36,26 +34,77 @@
     }
 }
 .content-blog__go-to-blog {
+    a {
+    font-family: 'e-Ukraine';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #009688;
+    text-decoration: none;
+}
 }
 .content-blog-card {
-    border: 1px solid green;
     width: 1120px;
     height: 295px;
     display: flex;
     justify-content: space-between;
+    border-top: 1px solid #F5F5F5;
+    padding: 30px 0 0 0;
 }
 .content-card__title {
-    border: 1px solid green;
     width: 360px;
     height: 265px;
+    display: grid;
+    align-content: space-between;
+    font-family: 'e-Ukraine';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    p:nth-child(2){
+        font-family: 'e-Ukraine';
+        font-style: normal;
+        font-weight: 200;
+        font-size: 12px;
+        line-height: 150%;
+    }
 }
 .content-card__img {
-    border: 1px solid green;
     width: 360px;
     height: 265px;
 }
 .content-card__discription {
-    border: 1px solid green;
     width: 353px;
-    height: 248px;
+    height: 260px;
+    display: grid;
+    align-content: space-between;
+    font-family: 'e-Ukraine';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 150%;
+    img {
+        margin: 0 0 0 300px;
+        cursor: pointer;
+    }
+}
+.section-seventh-content-card__btn {
+    display: flex;
+    justify-content: center;
+    width: 1122px;
+    height: 90px;
+    margin: auto;
+    border-top: 1px solid #F5F5F5;
+    .download-more-button {
+        margin: 60px 0 0 0;
+        &:hover{
+            border: 1px solid #00796B;
+        }
+        &:active{
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid #00796B;
+            box-shadow: inset 0px 7px 10px rgba(33, 33, 33, 0.54);
+        }
+    }
 }
