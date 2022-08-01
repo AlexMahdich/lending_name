@@ -22,6 +22,24 @@
     border: 1px solid green;
     height: 390px;
     width: 360px;
+    ul {
+        color: #FFFFFF;
+        li:nth-child(1) {
+            font-family: 'e-Ukraine';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 150%;
+            text-transform: uppercase;
+        }
+        li:nth-child(2) {
+            font-family: 'e-Ukraine';
+            font-style: normal;
+            font-weight: 100;
+            font-size: 18px;
+            line-height: 150%;
+        }
+    }
 }
 .section-eighth-footer-nav {
     border: 1px solid green;
@@ -41,16 +59,37 @@
     height: 90px;
     width: 125px;
     border: 1px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .footer-nav__nav1 {
     height: 90px;
     width: 125px;
     border: 1px solid green;
+    ul {
+        display: grid;
+        gap: 20px;
+        li {
+            display: block;
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+    }
 }
 .footer-nav__nav2 {
     height: 90px;
     width: 125px;
     border: 1px solid green;
+    ul {
+        display: grid;
+        gap: 20px;
+        li {
+            display: block;
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+    }
 }
 .footer-nav__contact {
     height: 90px;
@@ -61,4 +100,32 @@
     height: 90px;
     width: 125px;
     border: 1px solid green;
+}
+.feedback-form {
+    form {
+        height: 230px;
+        display: grid;
+    }
+    display: flex;
+    height: 285px;
+    align-items: end;
+    .input-field {
+        &:hover {
+            color: #FFFFFF;
+        }
+        &:active {
+            border: 1px solid #009688;
+        }
+    }
+    .request-a-call-button {
+        &:hover {
+            background: #00796B;
+            border: 1px solid #00796B;
+        }
+        &:active {
+            background: #00796B;
+            box-shadow: inset 0px 7px 10px rgba(33, 33, 33, 0.54);
+            border: 1px solid #00796B;
+        }
+    }
 }
