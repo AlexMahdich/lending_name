@@ -1,25 +1,22 @@
 .section-eighth {
+    // background: linear-gradient(0.51deg, #757575 -39.92%, rgba(117, 117, 117, 0.04) 99.57%);
     background-color: #212121;
-    height: 740px;
+    height: 680px;
     margin: auto;
     width: 1280px;
-    border: 1px solid green;
 }
 .section-eighth-content {
     height: 500px;
     margin: auto;
     width: 1080px;
-    border: 1px solid green;
     display: flex;
     justify-content: space-between;
 }
 .section-eighth-map {
-    border: 1px solid green;
     height: 480px;
     width: 640px;
 }
 .section-eighth-feedback-form {
-    border: 1px solid green;
     height: 390px;
     width: 360px;
     ul {
@@ -42,7 +39,6 @@
     }
 }
 .section-eighth-footer-nav {
-    border: 1px solid green;
     height: 90px;
     width: 1080px;
     margin: auto;
@@ -50,15 +46,19 @@
     justify-content: space-between;
 }
 .section-eighth-bottom-bar {
+    background-color: #212121;
     height: 40px;
     margin: auto;
     width: 1280px;
-    border: 1px solid green;
+    color: #FFFFFF;
+    p {
+        margin: 55px 0 0 40px;
+        padding: 12px 0 0 0;
+    }
 }
 .footer-nav__logo {
     height: 90px;
     width: 125px;
-    border: 1px solid green;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -66,7 +66,6 @@
 .footer-nav__nav1 {
     height: 90px;
     width: 125px;
-    border: 1px solid green;
     ul {
         display: grid;
         gap: 20px;
@@ -80,7 +79,6 @@
 .footer-nav__nav2 {
     height: 90px;
     width: 125px;
-    border: 1px solid green;
     ul {
         display: grid;
         gap: 20px;
@@ -94,12 +92,20 @@
 .footer-nav__contact {
     height: 90px;
     width: 325px;
-    border: 1px solid green;
+    ul {
+        display: grid;
+        gap: 20px;
+        li {
+            color: #FFFFFF;
+        }
+    }
 }
 .footer-nav__icons {
     height: 90px;
     width: 125px;
-    border: 1px solid green;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .feedback-form {
     form {
